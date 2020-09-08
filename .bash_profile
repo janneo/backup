@@ -12,7 +12,7 @@ subl() {
 # alias su-subl='sudo /Applications/Sublime\ Text.app/Contents/MacOS/Sublime\ Text -b '
 
 alias pwd-cp='pwd | pbcopy'
-alias j='autojump'
+# alias j='autojump'
 
 export PATH=/opt/local/bin:$PATH
 export PATH=/opt/local/sbin:$PATH
@@ -36,7 +36,7 @@ alias cnpm="npm --registry=https://registry.npm.taobao.org \
 
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
- [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
+#  [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
 
 alias cd-tms-a='cd /Users/Kevin/Work/Git/android/android-phone-cashier-git/phonecashier'
 alias cd-tms-i='cd /Users/Kevin/Work/Git/iOS/ios-phone-cashier-git/SPSafePay'
